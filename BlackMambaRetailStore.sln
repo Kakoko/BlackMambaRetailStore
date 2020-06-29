@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRSDataManager", "BRSDataManager\BRSDataManager.csproj", "{272628F4-7A4A-4930-A8A5-A720228C6CC3}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BMRSData", "BMRSData\BMRSData.sqlproj", "{D5CE9512-7DA1-4869-B51A-93327C5AA376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMRSDesktopUI", "BMRSDesktopUI\BMRSDesktopUI.csproj", "{30300DB3-6C56-40EA-AFCD-C18B69D8A7F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{272628F4-7A4A-4930-A8A5-A720228C6CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{272628F4-7A4A-4930-A8A5-A720228C6CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{272628F4-7A4A-4930-A8A5-A720228C6CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CE9512-7DA1-4869-B51A-93327C5AA376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CE9512-7DA1-4869-B51A-93327C5AA376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CE9512-7DA1-4869-B51A-93327C5AA376}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D5CE9512-7DA1-4869-B51A-93327C5AA376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CE9512-7DA1-4869-B51A-93327C5AA376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CE9512-7DA1-4869-B51A-93327C5AA376}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{30300DB3-6C56-40EA-AFCD-C18B69D8A7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30300DB3-6C56-40EA-AFCD-C18B69D8A7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30300DB3-6C56-40EA-AFCD-C18B69D8A7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30300DB3-6C56-40EA-AFCD-C18B69D8A7F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
